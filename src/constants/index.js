@@ -2,7 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-
+import stock from "../assets/stock.png";
+import riscv from "../assets/riscv1.png";
+import travel from "../assets/travel.jpg";
+import saving from "../assets/saving.jpg";
+import akarsh from "../assets/akarshport.png";
 
 
 
@@ -56,31 +60,37 @@ Assisted the team with tasks, including repairing faulty equipment and analysing
 ];
 export const PROJECTS = [
   {
-    title: "RISCV CPU",
-    image: "project1",
+    title: "RISC-V 32I CPU",
+    image: riscv,
     description:
       "Collaborated in a team of 4 to design a RISC V-32I processor from scratch in SystemVerilog, further developing a pipelined processor with two way set associative cache. Designed and implemented the data memory module within the processor and wrote GTests in C++ to verify the functionality of the component. Created a testbench using C++ to assess the processor’s ability to plot a probability generating function given a dataset, optimizing for improved plotting speed.",
     technologies: ["SystemVerilog", "C++", "Git" ],
   },
   {
     title: "Asset optimization using the sharpe ratio",
-    image: "project2",
+    image: stock,
     description:
       "Currently working on a full stack app that optimizes asset allocation using the Sharpe ratio. Currently, the app allows users to enter a list of assets as well as their desired risk tolerances and constraints to calculate the optimal asset allocation. In addition to this, the app also allows for users to compare stock performances via monitoring opening and closing prices graphically which I plot using Charts.js. Next steps include a news section where users can monitor performances of their assets and a portfolio section where users can monitor their asset allocation.",
-    technologies: ["Python FastAPI", "Express.js", "TypeScript", "Charts.js", "Next.js", "Tailwind CSS", "MongoDB"],
+    technologies: ["Python", "FastAPI", "Express.js", "TypeScript", "Charts.js", "Next.js", "Tailwind CSS", "MongoDB"],
   },
   {
     title: "Travel App",
-    image: "project3",
+    image: travel,
     description: "Currently working on a travel app allowing users to find their ideal destination. Currently, I have created a section allowing users to input a description of their ideal destination and using sentence transformer, I am able to find the top 5 results from the PostgreSQL database. In addition, I have enabled users to locate their destinations on a map using open map api. Next steps for this project is to allow users to save their visited destinations as well as compare the best prices for flights for a given destination.",
     technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL"],
   },
   {
     title: "Money Savings Goal Planner ",
-    image: "project4",
+    image: saving,
     description:
       "Designed an app that allows users to set savings goals and update their savings progress. Developed the frontend using TypeScript, Next.js and Tailwind CSS, incorporating features such as allowing users to enter a ’reason’ for their savings and ’amount saved so far’ to display their progress. Utilized Next.js App routing to allow users to access further details for each goal.Used Python FastAPI on the backend to communicate and store information in a PostgresSQL database.",
     technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL"],
+  }, 
+  {
+    title: "Portfolio Website (this site)",
+    image: akarsh,
+    description: "Developed a personal portfolio website to showcase my projects and skills. The website is built using React (in JavaScript), Tailwind CSS, and Framer Motion for animations. It features a responsive design, smooth scrolling and holds my CV for those interested.", 
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "JavaScript"],
   }
 ];
 

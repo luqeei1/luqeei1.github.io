@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaBriefcase, FaProjectDiagram, FaEnvelope, FaFile
 const Navbar = () => {
   return (
     <>
-    <nav className="fixed top-1/2 left-6 transform -translate-y-1/2 flex flex-col items-center gap-6 z-50 text-white">
+    <nav className="fixed top-1/2 left-6 transform -translate-y-1/2 flex flex-col items-center gap-6 z-50 text-white opacity-30 hover:opacity-100 transition-opacity duration-300">
      
       {/* Experience */}
       <div className="group relative flex flex-col items-center">
@@ -42,20 +42,8 @@ const Navbar = () => {
         </span>
       </div>
 
-
       <div className="group relative flex flex-col items-center">
-        <a href="#contact"  className="hover:scale-125 hover:text-purple-500 transition-transform duration-300 ease-out">
-          <FaEnvelope size={26} />
-        </a>
-        <span className="absolute left-10 top-1/2 transform -translate-y-1/2 bg-black text-white text-sm px-2 py-1 rounded opacity-0 scale-95 translate-x-[-10px] group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-0 transition-all duration-300 ease-out shadow-lg whitespace-nowrap">
-          Contact Me
-        </span>
-      </div>
-
-
-      {/* CV */}
-      <div className="group relative flex flex-col items-center">
-        <a href="/path-to-your-cv.pdf" target="_blank" rel="noopener noreferrer" aria-label="CV" className="hover:scale-125 hover:text-purple-500 transition-transform duration-300 ease-out">
+        <a href="#cv" target="_blank" aria-label="CV" className="hover:scale-125 hover:text-purple-500 transition-transform duration-300 ease-out">
           <FaFileAlt size={26} />
         </a>
         <span className="absolute left-10 top-1/2 transform -translate-y-1/2 bg-black text-white text-sm px-2 py-1 rounded opacity-0 scale-95 translate-x-[-10px] group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-0 transition-all duration-300 ease-out shadow-lg whitespace-nowrap">
@@ -64,10 +52,19 @@ const Navbar = () => {
       </div>
 
 
-      <hr className="w-6 border-t border-gray-400 my-2" />
+      
 
 
-      {/* LinkedIn */}
+      <div className="group relative flex flex-col items-center">
+        <a href="#contact" rel="noopener noreferrer"  className="hover:scale-125 hover:text-purple-500 transition-transform duration-300 ease-out">
+          <FaEnvelope size={26} />
+        </a>
+        <span className="absolute left-10 top-1/2 transform -translate-y-1/2 bg-black text-white text-sm px-2 py-1 rounded opacity-0 scale-95 translate-x-[-10px] group-hover:opacity-100 group-hover:scale-100 group-hover:translate-x-0 transition-all duration-300 ease-out shadow-lg whitespace-nowrap">
+          Contact Me
+        </span>
+      </div>
+
+      
       <div className="relative group">
         <a href="https://www.linkedin.com/in/akarsh-gopalam-0778b722a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:scale-150 transition-transform duration-300">
           <FaLinkedin size={24} />
@@ -78,7 +75,7 @@ const Navbar = () => {
       </div>
 
 
-      {/* GitHub */}
+      
       <div className="relative group">
         <a href="https://github.com/luqeei1" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:scale-150 transition-transform duration-300">
           <FaGithub size={24} />

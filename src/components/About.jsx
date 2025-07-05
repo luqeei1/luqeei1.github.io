@@ -19,11 +19,14 @@ const About = () => {
               <p className='my-2 max-w-xl py-6'>
 
 
-              Hello, my name is Akarsh Bharadwaj Gopalam. I am an undergraduate student at Imperial College London studying Electronic and Information Engineering (Computer Engineering) MEng.
-              I have a passion for software engineering and technology, and I am always eager to learn new skills and take on new challenges. I have experience in various programming languages and frameworks,
-              some being from modules I have taken during university and others from personal projects and experiences. Outside studies and programming, I enjoy
-              going on walks, whether that be with friends, family or with my dog. I am a strong believe that physical activity is important for mental health and well-being, and I actively try to incorporate this into my daily routine.
-              Below, you can see my different programming skills.
+              Hello, my name is Akarsh Bharadwaj Gopalam. I am an undergraduate student at Imperial College London studying Electronic and Information Engineering (Computer Engineering).
+              I have a passion for software engineering and technology and I am always eager to learn new skills and take on new challenges. I have experience in various programming languages and frameworks,
+              some being from modules I have taken during university and others from personal projects. Outside academia, I enjoy
+              going on walks with friends, family or with my dog. I am a strong believer that physical activity is important for mental and physical well-being, and I actively try to incorporate this into my daily routine.
+
+              <br />
+              <br />
+              <p>Below, you can see my different programming skills:</p>
 
 
              <div className="max-w-md mx-auto translate-x-[-10%] translate-y-[10%]">
@@ -35,7 +38,6 @@ const About = () => {
                     "SystemVerilog",
                     "C++",
                     "HTML/CSS",
-                    "SQL"
                   ].map((skill) => (
                     <li key={skill}>
                       <p className="w-fit inline-block rounded-full bg-neutral-800 px-3 py-1 text-sm text-neutral-100 shadow-md">
@@ -71,6 +73,8 @@ const About = () => {
                     "VS Code",
                     "MongoDB",
                     "PostgreSQL",
+                    "AWS EC2",
+                    "SQLite"
                   ].map((skill) => (
                     <li key={skill}>
                       <p className="w-fit inline-block rounded-full bg-neutral-800 px-3 py-1 text-sm text-neutral-100 shadow-md">
@@ -81,7 +85,7 @@ const About = () => {
                 </ul>
 
 
-                <p className='mt-10'> My academic interests include machine learning, and natural language processing, AI and full stack development. I believe the study of such will provide a tangible impact on society.</p>
+                <p className='mt-10'> My academic interests include machine learning, natural language processing, AI and full stack development. </p>
               </div>
 
 

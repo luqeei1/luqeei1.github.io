@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 
 const Experience = () => {
   return (
-    <div id='experience' className='border-b border-neutral-900 pb-4'>
+    <div id='experience' className='border-b border-neutral-900 pb-4 pt-0.5'>
       <motion.h1 className='my-20 text-center text-4xl capitalize text-purple-500 underline decoration-purple-300'>experience</motion.h1>
       <div>
         {EXPERIENCES.map((experience, index) => (

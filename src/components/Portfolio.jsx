@@ -6,6 +6,7 @@ import Technologies from './Technologies';
 import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
+import CV from './CV'; 
 
 
 
@@ -26,6 +27,7 @@ function Portfolio() {
         <Navbar />
         <Experience />
         <Projects />
+        <CV />
         <Contact />
       </div>
     </div>
