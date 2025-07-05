@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
     <nav className="fixed top-1/2 left-6 transform -translate-y-1/2 flex flex-col items-center gap-6 z-50 text-white opacity-30 hover:opacity-100 transition-opacity duration-300">
      
-      {/* Experience */}
+
       <div className="group relative flex flex-col items-center">
         <a
           href="#experience"

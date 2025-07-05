@@ -1,6 +1,5 @@
 import React from 'react';
 import mrb from '../assets/mrb.jpeg';
-import { ABOUT_TEXT } from '../constants';
 import { motion } from 'framer-motion';
 const About = () => {
   return (

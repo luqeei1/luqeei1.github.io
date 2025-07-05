@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Navbar from './Navbar';
-import Hero from './Hero'; // Make sure you're importing Hero
+import Hero from './Hero'; 
 import About from './About';
 import Technologies from './Technologies';
 import Experience from './Experience';

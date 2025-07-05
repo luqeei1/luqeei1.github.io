@@ -15,9 +15,6 @@ export const HERO_CONTENT = `I am a second year Electronic and Information Engin
 
 
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
-
 
 
 export const EXPERIENCES = [
@@ -46,7 +43,7 @@ Explored how upcoming technology can be used to aid design processes leading to 
 Presented a group design project, against 7+ teams, on a search and rescue drone.
 Created a Python program to choose a base from a selection of 15 along a 2,000km2 shoreline to deploy from, based on distance from the desired target.
 Awarded a Silver Industrial Cadets Award.`,
-    technologies: ["python", "Microsoft Powerpoint"],
+    technologies: ["Python", "Microsoft Powerpoint"],
   },
   {
     year: "September 2020 - April 2023",
@@ -55,7 +52,7 @@ Awarded a Silver Industrial Cadets Award.`,
     description: `Began teaching guitar to children at different skill levels, up to 5 per class.
 Conversed with parents and presented my ideas to the team for optimal teaching strategies.
 Assisted the team with tasks, including repairing faulty equipment and analysing required payments.`,
-    technologies: ["communication"],
+    technologies: ["Communication"],
   }
 ];
 export const PROJECTS = [
@@ -67,10 +64,10 @@ export const PROJECTS = [
     technologies: ["SystemVerilog", "C++", "Git" ],
   },
   {
-    title: "Asset optimization using the sharpe ratio",
+    title: "Asset Optimization Using The Sharpe Ratio",
     image: stock,
     description:
-      "Currently working on a full stack app that optimizes asset allocation using the Sharpe ratio. Currently, the app allows users to enter a list of assets as well as their desired risk tolerances and constraints to calculate the optimal asset allocation. In addition to this, the app also allows for users to compare stock performances via monitoring opening and closing prices graphically which I plot using Charts.js. Next steps include a news section where users can monitor performances of their assets and a portfolio section where users can monitor their asset allocation.",
+      "Currently working on a full stack app that optimizes asset allocation using the Sharpe Ratio. Currently, the app allows users to enter a list of assets as well as their desired risk tolerances and constraints to calculate the optimal asset allocation. In addition to this, the app also allows for users to compare stock performances via monitoring opening and closing prices graphically, which I plot using Charts.js. Next steps include a news section where users can monitor performances of their assets and a section where users save their portfolios.",
     technologies: ["Python", "FastAPI", "Express.js", "TypeScript", "Charts.js", "Next.js", "Tailwind CSS", "MongoDB"],
   },
   {
