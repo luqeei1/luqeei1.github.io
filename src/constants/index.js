@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     persistent SMTP connections with a 5-minute reuse timeout, cutting email notification latency by 42%. Implemented Redis caching in Docker, reducing repeated LLM chat suggestions queries by 50%+. Contributed to and tested AI prompts by creating a pipeline using Python FastAPI on an AWS EC2
     instance, ensuring that the selected LLM extracted PDF information accurately and offered medical-grade AI guidance based on patient data and preexisting databases.
     `,
-    technologies: ["TypeScript", "React", "Next.js", "Python", "FastAPI"],
+    technologies: ["TypeScript", "React", "Python", "FastAPI", "Express.js", "AWS EC2", "Redis", "Docker"],
   },
   {
     year: "June 2024",
@@ -75,7 +75,7 @@ export const PROJECTS = [
     map rendering of queried and stored locations.
     Created per-destination journals to document experiences, implementing caching that reduced MongoDB
     query load by 50% and decreased data access times from ≈ 38 ms to ≈ 0.002 ms (19,000x improvement).`,
-    technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL", "MongoDB"],
+    technologies: ["TypeScript", "React", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL", "MongoDB"],
   },
   {
     title: "Portfolio Website (this site)",
