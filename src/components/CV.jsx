@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import akarshcv from '../assets/Akarsh_Bharadwaj_Gopalam_CV.pdf'
+import akarshcv from '../assets/projects/Akarsh_Bharadwaj_Gopalam_CV.pdf'
 const CV = () => {
   return (
     <section id='cv' className='border-b border-neutral-900 pb-5'>

@@ -19,11 +19,15 @@ export const HERO_CONTENT = `I am a second year Electronic and Information Engin
 
 export const EXPERIENCES = [
   {
-    year: "July 2025 - August 2025",
-    role: "Incoming Software Engineering Intern",
+    year: "July 2025 - September 2025",
+    role: "Software Engineering and AI Intern",
     company: "OncoFlow",
-    description: `Joining OncoFlow for 8 weeks as a Software Engineering Intern, working with the AI and platform teams to train AI models as well as develop full stack applications.`,
-    technologies: ["TypeScript", "ReactJS", "NextJS", "Python", "FastAPI"],
+    description: `
+    ◦ Built OncoFlow’s early-stage healthcare AI pipeline and app using React (TypeScript) and TailwindCSS. Engineered an Express.js (TypeScript) notification service with Nodemailer, using connection pooling and
+    persistent SMTP connections with a 5-minute reuse timeout, cutting email notification latency by 42%. Implemented Redis caching in Docker, reducing repeated LLM chat suggestions queries by 50%+. Contributed to and tested AI prompts by creating a pipeline using Python FastAPI on an AWS EC2
+    instance, ensuring that the selected LLM extracted PDF information accurately and offered medical-grade AI guidance based on patient data and preexisting databases.
+    `,
+    technologies: ["TypeScript", "React", "Next.js", "Python", "FastAPI"],
   },
   {
     year: "June 2024",
@@ -33,17 +37,6 @@ export const EXPERIENCES = [
                   Designed a WeBots C++ project with an e-puck using 8 distance sensors, to not collide with surroundings.
                   Presented my WeBots project via PowerPoint to the principle of Digital Science.`,
     technologies: ["C++"],
-  },
-  {
-    year: "July 2022",
-    role: "Engineering Taster Week",
-    company: "BAE Systems",
-    description: `Had the opportunity to delve into various sectors within BAE following a competitive admissions process.
-Explored how upcoming technology can be used to aid design processes leading to beneficial outcomes.
-Presented a group design project, against 7+ teams, on a search and rescue drone.
-Created a Python program to choose a base from a selection of 15 along a 2,000km2 shoreline to deploy from, based on distance from the desired target.
-Awarded a Silver Industrial Cadets Award.`,
-    technologies: ["Python", "Microsoft Powerpoint"],
   },
   {
     year: "September 2020 - April 2023",
@@ -67,22 +60,23 @@ export const PROJECTS = [
     title: "Asset Optimization Using The Sharpe Ratio",
     image: stock,
     description:
-      "Currently working on a full stack app that optimizes asset allocation using the Sharpe Ratio. Currently, the app allows users to enter a list of assets as well as their desired risk tolerances and constraints to calculate the optimal asset allocation. In addition to this, the app also allows for users to compare stock performances via monitoring opening and closing prices graphically, which I plot using Charts.js. Next steps include a news section where users can monitor performances of their assets and a section where users save their portfolios.",
+     "Built a polyglot finance app with a Next.js (TypeScript) + TailwindCSS frontend (deployed via Vercel), an Express.js (TypeScript) backend (deployed via Render) and a FastAPI microservice (deployed via Render) for SciPy-based financial computations and yfinance/Marketaux APIs. Engineered a Sharpe Ratio optimizer with user-defined weight constraints, returning the portfolio’s optimal weight allocations and key metrics such as annualized Sharpe Ratio, annual return and annual risk. Created a Chart.js Historical Data view for opening/closing price comparison between 2 stocks. Integrated Marketaux API for real-time financial news, applying 20 minute TTL caching in the Express.js backend to reduce API calls and cut latency by 93%. Implemented JWT authentication with bcrypt hashing, MongoDB persistence and protected routes for",
     technologies: ["Python", "FastAPI", "Express.js", "TypeScript", "Charts.js", "Next.js", "Tailwind CSS", "MongoDB"],
   },
   {
     title: "Travel App",
     image: travel,
-    description: "Currently working on a travel app allowing users to find their ideal destination. Currently, I have created a section allowing users to input a description of their ideal destination and using sentence transformer, I am able to find the top 5 results from the PostgreSQL database. In addition, I have enabled users to locate their destinations on a map using open map api. Next steps for this project is to allow users to save their visited destinations as well as compare the best prices for flights for a given destination.",
-    technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL"],
+    description: `
+    
+    Developed a multi-page travel app with a React (TypeScript) + TailwindCSS frontend and a FastAPI backend, using PostgreSQL for destination storage. Implemented NLP-based destination matching with sentence transformers to semantically analyze queries
+    and return top 3 matches from 200+ destinations via vector similarity, further allowing for wishlist saving.
+    Integrated support for displaying destination data for climate and average temperature.
+    Incorporated OpenStreetMap API with search functionality, persistent user destination history and dynamic
+    map rendering of queried and stored locations.
+    Created per-destination journals to document experiences, implementing caching that reduced MongoDB
+    query load by 50% and decreased data access times from ≈ 38 ms to ≈ 0.002 ms (19,000x improvement).`,
+    technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL", "MongoDB"],
   },
-  {
-    title: "Money Savings Goal Planner ",
-    image: saving,
-    description:
-      "Designed an app that allows users to set savings goals and update their savings progress. Developed the frontend using TypeScript, Next.js and Tailwind CSS, incorporating features such as allowing users to enter a ’reason’ for their savings and ’amount saved so far’ to display their progress. Utilized Next.js App routing to allow users to access further details for each goal.Used Python FastAPI on the backend to communicate and store information in a PostgresSQL database.",
-    technologies: ["TypeScript", "Next.js", "Tailwind CSS", "Python", "FastAPI", "PostgreSQL"],
-  }, 
   {
     title: "Portfolio Website (this site)",
     image: akarsh,

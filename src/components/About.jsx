@@ -34,9 +34,12 @@ const About = () => {
                   {[
                     "JavaScript/TypeScript",
                     "Python",
+                    "Java",
                     "SystemVerilog",
                     "C++",
                     "HTML/CSS",
+                    "Tailwind CSS",
+                    "SQL"
                   ].map((skill) => (
                     <li key={skill}>
                       <p className="w-fit inline-block rounded-full bg-neutral-800 px-3 py-1 text-sm text-neutral-100 shadow-md">
@@ -50,10 +53,10 @@ const About = () => {
                   {[
                     "React",
                     "Next.js",
-                    "Tailwind CSS",
                     "Node.js",
-                    "ExpressJS",
+                    "Express.js",
                     "FastAPI",
+                    "Spring Boot"
                    
                   ].map((skill) => (
                     <li key={skill}>
@@ -73,7 +76,6 @@ const About = () => {
                     "MongoDB",
                     "PostgreSQL",
                     "AWS EC2",
-                    "SQLite"
                   ].map((skill) => (
                     <li key={skill}>
                       <p className="w-fit inline-block rounded-full bg-neutral-800 px-3 py-1 text-sm text-neutral-100 shadow-md">

@@ -12,7 +12,6 @@ const Projects = () => {
           <div className="flex-1">
             {PROJECTS.map((project, index) => (
               <div key={index} className="mb-12 flex flex-wrap lg:justify-between">
-                {/* Left side: Image */}
                 <motion.div 
                   whileInView={{ opacity: 1, x: 0 }}
                   initial={{ opacity: 0, x: -100 }}
@@ -27,7 +26,6 @@ const Projects = () => {
                   />
                 </motion.div>
 
-                {/* Right side: Project info */}
                 <motion.div 
                 whileInView={{opacity:1, x:0}}
                 animate={{opacity:0, x: 100}}
